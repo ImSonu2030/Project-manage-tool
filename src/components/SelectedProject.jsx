@@ -5,6 +5,7 @@ export default function SelectedProject({
   onRemove,
   onAddTask,
   onDeleteTask,
+  onCancel,
 }) {
   return (
     <div className="w-[35rem] sm: px-4 py-10">
@@ -31,7 +32,7 @@ export default function SelectedProject({
           Remove
         </button>
         <button
-          onClick={() => onRemove()}
+          onClick={() => onCancel()}
           className="w-1/6 border-solid border border-black text-stone-950  hover:bg-stone-200 py-1 rounded-md font-medium duration-100"
         >
           Close

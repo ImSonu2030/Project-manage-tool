@@ -167,6 +167,7 @@ function App() {
         onRemove={handleRemoveProject}
         onAddTask={handleAddTask}
         onDeleteTask={handleDeleteTask}
+        onCancel={handleCancel}
       />
     );
   }
